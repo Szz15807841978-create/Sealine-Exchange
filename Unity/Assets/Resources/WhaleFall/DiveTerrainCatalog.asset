@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e13de7380c203045b91b55c380ac868, type: 3}
+  m_Name: DiveTerrainCatalog
+  m_EditorClassIdentifier: 
+  adjustments:
+  - prefab: {fileID: 3110431614945127985, guid: f8a0355706811824ba765a4d5af65a45, type: 3}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    colliderSize: {x: 1, y: 1, z: 1}
+    colliderOffset: {x: 0, y: 0, z: 0}
+  - prefab: {fileID: 3114740032456156673, guid: dd3132013090fc1419db258cc24eb675, type: 3}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    colliderSize: {x: 1, y: 1, z: 1}
+    colliderOffset: {x: 0, y: 0, z: 0}
+  - prefab: {fileID: 7867467216822736344, guid: 627dbf3b1039a93498b4c903162c7eb8, type: 3}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    colliderSize: {x: 1, y: 1, z: 1}
+    colliderOffset: {x: 0, y: 0, z: 0}
+  - prefab: {fileID: 99876978677246799, guid: fec2f482e0527c44983aa628f198c09f, type: 3}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    colliderSize: {x: 1, y: 1, z: 1}
+    colliderOffset: {x: 0, y: 0, z: 0}
+  - prefab: {fileID: 2699974287969266189, guid: 314116d0cf40dcf42be8a336473b0584, type: 3}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    colliderSize: {x: 1, y: 1, z: 1}
+    colliderOffset: {x: 0, y: 0, z: 0}
+  - prefab: {fileID: 1218432001105250783, guid: dd0f15346cf017948ab968cb6820ea32, type: 3}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    colliderSize: {x: 1, y: 1, z: 1}
+    colliderOffset: {x: 0, y: 0, z: 0}
+  - prefab: {fileID: 8329320514316183877, guid: f27b22661f63c3d4ea1ee466e03d8aa9, type: 3}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    colliderSize: {x: 1, y: 1, z: 1}
+    colliderOffset: {x: 0, y: 0, z: 0}
+  platformCount: 5
+  platformWidth: 16
+  boundaryPlatform: {fileID: 8329320514316183877, guid: f27b22661f63c3d4ea1ee466e03d8aa9, type: 3}
+  boundaryCliff: {fileID: 1218432001105250783, guid: dd0f15346cf017948ab968cb6820ea32, type: 3}
+  seabedSlope: {fileID: 99876978677246799, guid: fec2f482e0527c44983aa628f198c09f, type: 3}
+  seabedSteps: {fileID: 2699974287969266189, guid: 314116d0cf40dcf42be8a336473b0584, type: 3}
+  seabedPillar: {fileID: 7867467216822736344, guid: 627dbf3b1039a93498b4c903162c7eb8, type: 3}
+  seabedArch: {fileID: 3114740032456156673, guid: dd3132013090fc1419db258cc24eb675, type: 3}
+  decorativeRocks:
+  - {fileID: 3110431614945127985, guid: f8a0355706811824ba765a4d5af65a45, type: 3}
+  mapTemplates:
+  - {fileID: 6828148051272435932, guid: ff98680aec6713c4fbedf7d3b121d873, type: 3}
+  largeModules:
+  - {fileID: 99876978677246799, guid: fec2f482e0527c44983aa628f198c09f, type: 3}
+  - {fileID: 2699974287969266189, guid: 314116d0cf40dcf42be8a336473b0584, type: 3}
+  - {fileID: 1218432001105250783, guid: dd0f15346cf017948ab968cb6820ea32, type: 3}
+  - {fileID: 8329320514316183877, guid: f27b22661f63c3d4ea1ee466e03d8aa9, type: 3}
+  rockModules:
+  - {fileID: 3110431614945127985, guid: f8a0355706811824ba765a4d5af65a45, type: 3}
+  - {fileID: 7867467216822736344, guid: 627dbf3b1039a93498b4c903162c7eb8, type: 3}
+  landmarkModules:
+  - {fileID: 3114740032456156673, guid: dd3132013090fc1419db258cc24eb675, type: 3}

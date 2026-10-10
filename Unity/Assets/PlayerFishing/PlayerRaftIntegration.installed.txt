@@ -1,0 +1,2 @@
+Incremental raft observations installed; never rebuild Main to adjust this layout.
+Backup=tools/backups/before-raft-observations-20261006-160753

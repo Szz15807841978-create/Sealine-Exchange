@@ -1,0 +1,638 @@
+fileFormatVersion: 2
+guid: 0e813baa34e94ec43b443bcb47cd49cc
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: PA_Shark
+    100004: PA_SharkBodyJnt
+    100006: PA_SharkCtrl
+    100008: PA_SharkHeadJnt
+    100010: PA_SharkJawJnt
+    100012: PA_SharkJawRootJnt
+    100014: PA_SharkJawTipJnt
+    100016: PA_SharkLeftFinJnt
+    100018: PA_SharkLeftFinTipJnt
+    100020: PA_SharkNoseJnt
+    100022: PA_SharkNoseTipJnt
+    100024: PA_SharkRightFinJnt
+    100026: PA_SharkRightFinTipJnt
+    100028: PA_SharkRootJnt
+    100030: PA_SharkShouldersJnt
+    100032: PA_SharkTail1Jnt
+    100034: PA_SharkTail2Jnt
+    100036: PA_SharkTail3Jnt
+    100038: PA_SharkTail4Jnt
+    400000: //RootNode
+    400002: PA_Shark
+    400004: PA_SharkBodyJnt
+    400006: PA_SharkCtrl
+    400008: PA_SharkHeadJnt
+    400010: PA_SharkJawJnt
+    400012: PA_SharkJawRootJnt
+    400014: PA_SharkJawTipJnt
+    400016: PA_SharkLeftFinJnt
+    400018: PA_SharkLeftFinTipJnt
+    400020: PA_SharkNoseJnt
+    400022: PA_SharkNoseTipJnt
+    400024: PA_SharkRightFinJnt
+    400026: PA_SharkRightFinTipJnt
+    400028: PA_SharkRootJnt
+    400030: PA_SharkShouldersJnt
+    400032: PA_SharkTail1Jnt
+    400034: PA_SharkTail2Jnt
+    400036: PA_SharkTail3Jnt
+    400038: PA_SharkTail4Jnt
+    4300000: PA_Shark
+    7400000: PA_SharkSwimClip
+    7400002: PA_SharkSwimUpClip
+    7400004: PA_SharkSwimDownClip
+    7400006: PA_SharkSwimRightClip
+    7400008: PA_SharkSwimLeftClip
+    7400010: PA_SharkBiteClip
+    7400012: PA_SharkKnockBackClip
+    7400014: PA_SharkSnapClip
+    9500000: //RootNode
+    13700000: PA_Shark
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: PA_SharkSwimClip
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: PA_Shark
+        weight: 1
+      - path: PA_SharkCtrl
+        weight: 1
+      - path: PA_SharkRootJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkJawRootJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkJawRootJnt/PA_SharkJawJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkJawRootJnt/PA_SharkJawJnt/PA_SharkJawTipJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkNoseJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkNoseJnt/PA_SharkNoseTipJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkLeftFinJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkLeftFinJnt/PA_SharkLeftFinTipJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkRightFinJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkRightFinJnt/PA_SharkRightFinTipJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkTail1Jnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkTail1Jnt/PA_SharkTail2Jnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkTail1Jnt/PA_SharkTail2Jnt/PA_SharkTail3Jnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkTail1Jnt/PA_SharkTail2Jnt/PA_SharkTail3Jnt/PA_SharkTail4Jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: PA_SharkSwimUpClip
+      takeName: Take 001
+      firstFrame: 48
+      lastFrame: 96
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: PA_Shark
+        weight: 1
+      - path: PA_SharkCtrl
+        weight: 1
+      - path: PA_SharkRootJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkJawRootJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkJawRootJnt/PA_SharkJawJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkJawRootJnt/PA_SharkJawJnt/PA_SharkJawTipJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkNoseJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkNoseJnt/PA_SharkNoseTipJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkLeftFinJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkLeftFinJnt/PA_SharkLeftFinTipJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkRightFinJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkRightFinJnt/PA_SharkRightFinTipJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkTail1Jnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkTail1Jnt/PA_SharkTail2Jnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkTail1Jnt/PA_SharkTail2Jnt/PA_SharkTail3Jnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkTail1Jnt/PA_SharkTail2Jnt/PA_SharkTail3Jnt/PA_SharkTail4Jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: PA_SharkSwimDownClip
+      takeName: Take 001
+      firstFrame: 96
+      lastFrame: 144
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: PA_Shark
+        weight: 1
+      - path: PA_SharkCtrl
+        weight: 1
+      - path: PA_SharkRootJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkJawRootJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkJawRootJnt/PA_SharkJawJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkJawRootJnt/PA_SharkJawJnt/PA_SharkJawTipJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkNoseJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkNoseJnt/PA_SharkNoseTipJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkLeftFinJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkLeftFinJnt/PA_SharkLeftFinTipJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkRightFinJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkRightFinJnt/PA_SharkRightFinTipJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkTail1Jnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkTail1Jnt/PA_SharkTail2Jnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkTail1Jnt/PA_SharkTail2Jnt/PA_SharkTail3Jnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkTail1Jnt/PA_SharkTail2Jnt/PA_SharkTail3Jnt/PA_SharkTail4Jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: PA_SharkSwimRightClip
+      takeName: Take 001
+      firstFrame: 144
+      lastFrame: 192
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: PA_Shark
+        weight: 1
+      - path: PA_SharkCtrl
+        weight: 1
+      - path: PA_SharkRootJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkJawRootJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkJawRootJnt/PA_SharkJawJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkJawRootJnt/PA_SharkJawJnt/PA_SharkJawTipJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkNoseJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkNoseJnt/PA_SharkNoseTipJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkLeftFinJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkLeftFinJnt/PA_SharkLeftFinTipJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkRightFinJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkRightFinJnt/PA_SharkRightFinTipJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkTail1Jnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkTail1Jnt/PA_SharkTail2Jnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkTail1Jnt/PA_SharkTail2Jnt/PA_SharkTail3Jnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkTail1Jnt/PA_SharkTail2Jnt/PA_SharkTail3Jnt/PA_SharkTail4Jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: PA_SharkSwimLeftClip
+      takeName: Take 001
+      firstFrame: 192
+      lastFrame: 238
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: PA_Shark
+        weight: 1
+      - path: PA_SharkCtrl
+        weight: 1
+      - path: PA_SharkRootJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkJawRootJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkJawRootJnt/PA_SharkJawJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkJawRootJnt/PA_SharkJawJnt/PA_SharkJawTipJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkNoseJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkNoseJnt/PA_SharkNoseTipJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkLeftFinJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkLeftFinJnt/PA_SharkLeftFinTipJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkRightFinJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkRightFinJnt/PA_SharkRightFinTipJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkTail1Jnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkTail1Jnt/PA_SharkTail2Jnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkTail1Jnt/PA_SharkTail2Jnt/PA_SharkTail3Jnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkTail1Jnt/PA_SharkTail2Jnt/PA_SharkTail3Jnt/PA_SharkTail4Jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: PA_SharkBiteClip
+      takeName: Take 001
+      firstFrame: 238
+      lastFrame: 286
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: PA_Shark
+        weight: 1
+      - path: PA_SharkCtrl
+        weight: 1
+      - path: PA_SharkRootJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkJawRootJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkJawRootJnt/PA_SharkJawJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkJawRootJnt/PA_SharkJawJnt/PA_SharkJawTipJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkNoseJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkNoseJnt/PA_SharkNoseTipJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkLeftFinJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkLeftFinJnt/PA_SharkLeftFinTipJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkRightFinJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkRightFinJnt/PA_SharkRightFinTipJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkTail1Jnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkTail1Jnt/PA_SharkTail2Jnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkTail1Jnt/PA_SharkTail2Jnt/PA_SharkTail3Jnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkTail1Jnt/PA_SharkTail2Jnt/PA_SharkTail3Jnt/PA_SharkTail4Jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: PA_SharkKnockBackClip
+      takeName: Take 001
+      firstFrame: 286
+      lastFrame: 334
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: PA_Shark
+        weight: 1
+      - path: PA_SharkCtrl
+        weight: 1
+      - path: PA_SharkRootJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkJawRootJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkJawRootJnt/PA_SharkJawJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkJawRootJnt/PA_SharkJawJnt/PA_SharkJawTipJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkNoseJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkNoseJnt/PA_SharkNoseTipJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkLeftFinJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkLeftFinJnt/PA_SharkLeftFinTipJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkRightFinJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkRightFinJnt/PA_SharkRightFinTipJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkTail1Jnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkTail1Jnt/PA_SharkTail2Jnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkTail1Jnt/PA_SharkTail2Jnt/PA_SharkTail3Jnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkTail1Jnt/PA_SharkTail2Jnt/PA_SharkTail3Jnt/PA_SharkTail4Jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: PA_SharkSnapClip
+      takeName: Take 001
+      firstFrame: 334
+      lastFrame: 384
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: PA_Shark
+        weight: 1
+      - path: PA_SharkCtrl
+        weight: 1
+      - path: PA_SharkRootJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkJawRootJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkJawRootJnt/PA_SharkJawJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkJawRootJnt/PA_SharkJawJnt/PA_SharkJawTipJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkNoseJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkHeadJnt/PA_SharkNoseJnt/PA_SharkNoseTipJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkLeftFinJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkLeftFinJnt/PA_SharkLeftFinTipJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkRightFinJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkShouldersJnt/PA_SharkRightFinJnt/PA_SharkRightFinTipJnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkTail1Jnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkTail1Jnt/PA_SharkTail2Jnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkTail1Jnt/PA_SharkTail2Jnt/PA_SharkTail3Jnt
+        weight: 1
+      - path: PA_SharkRootJnt/PA_SharkBodyJnt/PA_SharkTail1Jnt/PA_SharkTail2Jnt/PA_SharkTail3Jnt/PA_SharkTail4Jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

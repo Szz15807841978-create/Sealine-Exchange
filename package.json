@@ -1,0 +1,12 @@
+{
+  "name": "fishing-demo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Fishing market demo and Unity collaboration project",
+  "scripts": {
+    "test": "node tools/smoke-test.js && node tools/player-check.js --engine-only && node tools/risk-regression.js",
+    "test:model": "node tools/model-check.js",
+    "test:downside": "node tools/downside-check.js"
+  },
+  "engines": { "node": ">=18" }
+}

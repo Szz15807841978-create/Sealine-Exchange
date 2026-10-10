@@ -1,0 +1,10 @@
+/* Deterministic 90-second Monte Carlo: no trades, challenges or events, to isolate curve design. */
+'use strict';
+const fs=require('fs'),path=require('path'),vm=require('vm');
+const root=path.resolve(__dirname,'..');
+function engine(file){const html=fs.readFileSync(file,'utf8'),c={};vm.createContext(c);vm.runInContext(html.match(/\/\* ENGINE_BEGIN[\s\S]*?\*\/([\s\S]*?)\/\* ENGINE_END \*\//)[1]+';globalThis.E=Engine;',c);return c.E;}
+const E=engine(path.join(root,'index.html')),old=engine(path.join(__dirname,'fixtures','20261006-before-shapes-speed','index.html'));
+const count=200;
+const q=(rows,k,p)=>{const a=rows.map(r=>r[k]).sort((a,b)=>a-b);return +a[Math.floor((a.length-1)*p)].toFixed(2);};
+function stats(api,type){const rows=[];for(let seed=1;seed<=count;seed++){const s=api.newState(seed);api.debugSurvey(s);if(type&&type!=='random')api.setShapeChoice(s,type);s.baitDraft=api.baitOptimum(s);api.startSession(s);s.gaugeIndex=2;s.eventCount=3;api.advance(s,91);const p=s.series.map(a=>a.p),r=p.slice(1).map((v,i)=>Math.log(v/p[i]));let side=0,cross=0;for(const v of p){const next=v>102?1:v<98?-1:side;if(next&&side&&next!==side)cross++;side=next;}rows.push({range:Math.max(...p)-Math.min(...p),end:p.at(-1)-100,high:Math.max(...p)-100,low:Math.min(...p)-100,step:Math.sqrt(r.reduce((a,x)=>a+x*x,0)/r.length)*100,cross});}return{samples:count,rangeP10:q(rows,'range',.1),rangeMedian:q(rows,'range',.5),rangeP90:q(rows,'range',.9),endP10:q(rows,'end',.1),endMedian:q(rows,'end',.5),endP90:q(rows,'end',.9),highMedian:q(rows,'high',.5),lowMedian:q(rows,'low',.5),stepRmsMedian:q(rows,'step',.5),crossMedian:q(rows,'cross',.5),cross4Plus:rows.filter(r=>r.cross>=4).length/count};}
+console.log(JSON.stringify({method:'Seeds 1..200; random map-0 environment, optimal bait, no events/challenges/trades; ranges and returns measured relative to opening 100, crossing uses ±2% hysteresis',old:stats(old),modernRandom:stats(E,'random'),...Object.fromEntries(Object.keys(E.SHAPES).map(k=>[k,stats(E,k)]))},null,2));

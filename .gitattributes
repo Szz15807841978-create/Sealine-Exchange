@@ -1,0 +1,40 @@
+* text=auto
+*.cs text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.html text eol=lf
+*.py text eol=lf
+*.ps1 text eol=crlf
+*.meta text eol=lf
+*.unity text eol=lf
+*.prefab text eol=lf
+*.mat text eol=lf
+*.controller text eol=lf
+*.anim text eol=lf
+
+# Binary art goes to Git LFS; Unity text scenes and .meta remain reviewable
+*.[fF][bB][xX] filter=lfs diff=lfs merge=lfs -text
+*.[oO][bB][jJ] filter=lfs diff=lfs merge=lfs -text
+*.[bB][lL][eE][nN][dD] filter=lfs diff=lfs merge=lfs -text
+*.[pP][nN][gG] filter=lfs diff=lfs merge=lfs -text
+*.[jJ][pP][gG] filter=lfs diff=lfs merge=lfs -text
+*.[jJ][pP][eE][gG] filter=lfs diff=lfs merge=lfs -text
+*.[tT][gG][aA] filter=lfs diff=lfs merge=lfs -text
+*.[pP][sS][dD] filter=lfs diff=lfs merge=lfs -text
+*.[tT][iI][fF] filter=lfs diff=lfs merge=lfs -text
+*.[tT][iI][fF][fF] filter=lfs diff=lfs merge=lfs -text
+*.[eE][xX][rR] filter=lfs diff=lfs merge=lfs -text
+*.[hH][dD][rR] filter=lfs diff=lfs merge=lfs -text
+*.[wW][aA][vV] filter=lfs diff=lfs merge=lfs -text
+*.[mM][pP]3 filter=lfs diff=lfs merge=lfs -text
+*.[oO][gG][gG] filter=lfs diff=lfs merge=lfs -text
+*.[mM][pP]4 filter=lfs diff=lfs merge=lfs -text
+*.[gG][lL][bB] filter=lfs diff=lfs merge=lfs -text
+*.dll binary
+
+# Binary Unity asset data
+"Unity/Assets/Davis3D/OceanEnvironmentPack/Scenes/Demonstration/LightingData.asset" filter=lfs diff=lfs merge=lfs -text
+"Unity/Assets/LeartesStudios/UnderwaterShip/Art/Terrain/New Terrain.asset" filter=lfs diff=lfs merge=lfs -text
+"Unity/Assets/Ventuar/UnderwaterPack/Scenes/Demo/LightingData.asset" filter=lfs diff=lfs merge=lfs -text
+"Unity/Assets/_Corals2/New Terrain 2.asset" filter=lfs diff=lfs merge=lfs -text

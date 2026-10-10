@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b2425a2284af743826c689403a4924, type: 3}
+  m_Name: GlowWaves
+  m_EditorClassIdentifier: 
+  m_functionInfo: "// Made with Amplify Shader Editor\n// Available at the Unity
+    Asset Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=18900\n1536;72;1239;658;-150.653;-682.1135;1.124861;True;False\nNode;AmplifyShaderEditor.RangedFloatNode;31;867.6278,1367.831;Inherit;False;Global;_FlowMapScale_3;_FlowMapScale_3;4;1;[HideInInspector];Create;True;0;0;0;False;0;False;0.2;0.2;0;0;0;1;FLOAT;0\nNode;AmplifyShaderEditor.RangedFloatNode;19;868.0469,1268.865;Inherit;False;Global;_FlowMapScale_2;_FlowMapScale_2;5;1;[HideInInspector];Create;True;0;0;0;False;0;False;0.15;0.15;0;0;0;1;FLOAT;0\nNode;AmplifyShaderEditor.RangedFloatNode;87;868.0138,1455.15;Inherit;False;Global;_GlobalSpeed;_GlobalSpeed;7;1;[HideInInspector];Create;True;0;0;0;False;0;False;1;0.6;0;0;0;1;FLOAT;0\nNode;AmplifyShaderEditor.RangedFloatNode;11;866.1422,813.5038;Inherit;False;Global;_GlobalScale;_GlobalScale;1;1;[HideInInspector];Create;True;0;0;0;False;0;False;1;1.4;0;0;0;1;FLOAT;0\nNode;AmplifyShaderEditor.RangedFloatNode;14;867.1245,898.2494;Inherit;False;Global;_CausticsScale_1;_CausticsScale_1;11;1;[HideInInspector];Create;True;0;0;0;False;0;False;0.1;0.1;0;0;0;1;FLOAT;0\nNode;AmplifyShaderEditor.RangedFloatNode;38;867.7009,1063.958;Inherit;False;Global;_CausticsScale_3;_CausticsScale_3;12;1;[HideInInspector];Create;True;0;0;0;False;0;False;0.3;0.3;0;0;0;1;FLOAT;0\nNode;AmplifyShaderEditor.WorldNormalVector;101;870.2928,1810.784;Inherit;False;False;1;0;FLOAT3;0,0,1;False;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3\nNode;AmplifyShaderEditor.WorldPosInputsNode;105;874.7726,2264.93;Inherit;False;0;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3\nNode;AmplifyShaderEditor.RangedFloatNode;42;868.3979,1538.781;Inherit;False;Global;_CausticsSpeed_1;_CausticsSpeed_1;9;1;[HideInInspector];Create;True;0;0;0;False;0;False;0.05;-0.07;0;0;0;1;FLOAT;0\nNode;AmplifyShaderEditor.TexturePropertyNode;97;862.9097,349.4619;Inherit;True;Global;_CausticsMap;_CausticsMap;3;1;[HideInInspector];Create;True;0;0;0;False;0;False;None;b82a0d2938e72b640901e39b5c7bed56;False;white;Auto;Texture2D;-1;0;2;SAMPLER2D;0;SAMPLERSTATE;1\nNode;AmplifyShaderEditor.RangedFloatNode;103;871.4299,2057.765;Inherit;False;Property;_CausticsScale;_CausticsScale;1;0;Create;True;0;0;0;False;0;False;1;1;0;0;0;1;FLOAT;0\nNode;AmplifyShaderEditor.RangedFloatNode;107;875.9366,2443.11;Inherit;False;Global;_FlowMapIntensity;_FlowMapIntensity;8;1;[HideInInspector];Create;True;0;0;0;False;0;False;1;0.3;0;0;0;1;FLOAT;0\nNode;AmplifyShaderEditor.RangedFloatNode;26;867.3123,979.5278;Inherit;False;Global;_CausticsScale_2;_CausticsScale_2;6;1;[HideInInspector];Create;True;0;0;0;False;0;False;0.2;0.2;0;0;0;1;FLOAT;0\nNode;AmplifyShaderEditor.RangedFloatNode;5;867.4985,1170.285;Inherit;False;Global;_FlowMapScale_1;_FlowMapScale_1;2;1;[HideInInspector];Create;True;0;0;0;False;0;False;0.1;0.1;0;0;0;1;FLOAT;0\nNode;AmplifyShaderEditor.RangedFloatNode;45;868.4803,1715.674;Inherit;False;Global;_CausticsSpeed_3;_CausticsSpeed_3;7;1;[HideInInspector];Create;True;0;0;0;False;0;False;0.1;-0.1;0;0;0;1;FLOAT;0\nNode;AmplifyShaderEditor.TexturePropertyNode;98;865.0079,572.2552;Inherit;True;Global;_FlowMap;_FlowMap;2;1;[HideInInspector];Create;True;0;0;0;False;0;False;None;9b71ddd05f523f549ada3a03e9a65984;False;white;Auto;Texture2D;-1;0;2;SAMPLER2D;0;SAMPLERSTATE;1\nNode;AmplifyShaderEditor.RangedFloatNode;104;872.4377,2154.071;Inherit;False;Global;_CausticsWave1_Multiply;_CausticsWave1_Multiply;7;1;[HideInInspector];Create;True;0;0;0;False;0;False;1;0.5;0;0;0;1;FLOAT;0\nNode;AmplifyShaderEditor.RangedFloatNode;102;870.4299,1967.765;Inherit;False;Property;_CausticsIntensity;_CausticsIntensity;0;0;Create;True;0;0;0;False;0;False;1;1;0;0;0;1;FLOAT;0\nNode;AmplifyShaderEditor.DynamicAppendNode;106;1083.773,2288.93;Inherit;False;FLOAT2;4;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;0;False;3;FLOAT;0;False;1;FLOAT2;0\nNode;AmplifyShaderEditor.RangedFloatNode;43;868.4805,1625.788;Inherit;False;Global;_CausticsSpeed_2;_CausticsSpeed_2;8;1;[HideInInspector];Create;True;0;0;0;False;0;False;0.075;0.125;0;0;0;1;FLOAT;0\nNode;AmplifyShaderEditor.CustomExpressionNode;96;1179.91,355.4619;Inherit;False;float2
+    uv1 = CausticsScale_1 * localScale * GlobalScale * lerp(uv, tex2D(FlowMap, uv
+    * FlowMapScale_1 * GlobalScale * localScale).rg, FlowMapIntensity)@$float2 uv2
+    = CausticsScale_2 * localScale * GlobalScale * lerp(uv, tex2D(FlowMap, uv * FlowMapScale_2
+    * GlobalScale * localScale).rg, FlowMapIntensity)@$float2 uv3 = CausticsScale_3
+    * localScale * GlobalScale * lerp(uv, tex2D(FlowMap, uv * FlowMapScale_3 * GlobalScale
+    * localScale).rg, FlowMapIntensity)@$$float waves_1a = tex2D(CausticsMap, uv1
+    + _Time.y * CausticsSpeed_1 * GlobalSpeed + .1)@$float waves_2a = tex2D(CausticsMap,
+    uv2 + _Time.y * CausticsSpeed_2 * GlobalSpeed + .2)@$float waves_3a = tex2D(CausticsMap,
+    uv3 + _Time.y * CausticsSpeed_3 * GlobalSpeed + .3)@$\t$float waves_a = localIntensity
+    * CausticsWave1_Multiply * (waves_1a + waves_2a) * waves_3a@$\t\t$float mask
+    = (worldNormal.y + 0.7)@$mask = saturate(mask * mask)@$\t$return waves_a * mask@;1;False;19;True;CausticsMap;SAMPLER2D;;In;;Inherit;False;True;FlowMap;SAMPLER2D;;In;;Inherit;False;True;GlobalScale;FLOAT;0;In;;Inherit;False;True;CausticsScale_1;FLOAT;0;In;;Inherit;False;True;CausticsScale_2;FLOAT;0;In;;Inherit;False;True;CausticsScale_3;FLOAT;0;In;;Inherit;False;True;FlowMapScale_1;FLOAT;0;In;;Inherit;False;True;FlowMapScale_2;FLOAT;0;In;;Inherit;False;True;FlowMapScale_3;FLOAT;0;In;;Inherit;False;True;GlobalSpeed;FLOAT;0;In;;Inherit;False;True;CausticsSpeed_1;FLOAT;0;In;;Inherit;False;True;CausticsSpeed_2;FLOAT;0;In;;Inherit;False;True;CausticsSpeed_3;FLOAT;0;In;;Inherit;False;True;worldNormal;FLOAT3;0,0,0;In;;Inherit;False;True;localIntensity;FLOAT;0;In;;Inherit;False;True;localScale;FLOAT;0;In;;Inherit;False;True;CausticsWave1_Multiply;FLOAT;0;In;;Inherit;False;True;uv;FLOAT2;0,0;In;;Inherit;False;True;FlowMapIntensity;FLOAT;0;In;;Inherit;False;Get
+    Caustics;True;False;0;19;0;SAMPLER2D;;False;1;SAMPLER2D;;False;2;FLOAT;0;False;3;FLOAT;0;False;4;FLOAT;0;False;5;FLOAT;0;False;6;FLOAT;0;False;7;FLOAT;0;False;8;FLOAT;0;False;9;FLOAT;0;False;10;FLOAT;0;False;11;FLOAT;0;False;12;FLOAT;0;False;13;FLOAT3;0,0,0;False;14;FLOAT;0;False;15;FLOAT;0;False;16;FLOAT;0;False;17;FLOAT2;0,0;False;18;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionOutput;99;1520.069,355.1012;Inherit;False;True;-1;Output;0;False;1;0;FLOAT;0;False;1;FLOAT;0\nWireConnection;106;0;105;1\nWireConnection;106;1;105;3\nWireConnection;96;0;97;0\nWireConnection;96;1;98;0\nWireConnection;96;2;11;0\nWireConnection;96;3;14;0\nWireConnection;96;4;26;0\nWireConnection;96;5;38;0\nWireConnection;96;6;5;0\nWireConnection;96;7;19;0\nWireConnection;96;8;31;0\nWireConnection;96;9;87;0\nWireConnection;96;10;42;0\nWireConnection;96;11;43;0\nWireConnection;96;12;45;0\nWireConnection;96;13;101;0\nWireConnection;96;14;102;0\nWireConnection;96;15;103;0\nWireConnection;96;16;104;0\nWireConnection;96;17;106;0\nWireConnection;96;18;107;0\nWireConnection;99;0;96;0\nASEEND*/\n//CHKSM=AC3786EAB3938639A26DD236F0D51A53AFF14991"
+  m_functionName: 
+  m_description: 
+  m_additionalIncludes:
+    m_additionalIncludes: []
+    m_outsideIncludes: []
+  m_additionalPragmas:
+    m_additionalPragmas: []
+    m_outsidePragmas: []
+  m_additionalDirectives:
+    m_validData: 0
+    m_isDirty: 0
+    m_moduleName: ' Additional Directives'
+    m_independentModule: 1
+    m_customEdited: 0
+    m_additionalDirectives: []
+    m_shaderFunctionDirectives: []
+    m_nativeDirectives: []
+    m_nativeDirectivesIndex: -1
+    m_nativeDirectivesFoldout: 0
+    m_directivesSaveItems: []
+  m_nodeCategory: 3
+  m_customNodeCategory: 
+  m_previewPosition: 0
+  m_hidden: 0

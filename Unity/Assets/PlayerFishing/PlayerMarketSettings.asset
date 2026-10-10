@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55dba39108c090445b2c335864b7acbd, type: 3}
+  m_Name: PlayerMarketSettings
+  m_EditorClassIdentifier: 
+  Rules:
+    Duration: 90
+    StartFish: 100
+    StartBait: 60
+    MaxInput: 1000000
+    Fee: 0.005
+    CdMin: 3
+    CdMax: 5
+    BaitGain: 0.1
+    TemperatureOptimum: 17
+    WindOptimum: 4
+    BaitOptimalMin: 4
+    BaitOptimalMax: 24
+    SpeedWindow: 6
+    SpeedMinGain: -0.12
+    SpeedMaxGain: 0.18
+    SpeedBreakEven: 24
+    SpeedMaxCount: 60
+    GaugeWindow: 5
+    GaugeSweep: 1.4

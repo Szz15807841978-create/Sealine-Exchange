@@ -1,0 +1,13 @@
+﻿UI 皮肤素材来源说明
+====================
+
+形状取自 Kenney「UI Pack - Adventure」(v1.1)
+  https://kenney.nl/assets/ui-pack-adventure
+  License: Creative Commons Zero (CC0) —— 可商用、可修改、无需署名（署名非强制）
+  本目录下的 panel_* / button_* / bar_* 均由该包的 PNG 经「亮度→三段色阶重映射」得到，
+  原始棕灰色板被替换为《鲸落-Unity美术风格概念图-v2》取样出的色板：
+      纸面 #F2E7CB   墨线 #173A57   琥珀 #DDA64F   青灰 #5D929A   藏蓝 #5E84A3
+
+图标（icon_*.png）为本项目用脚本绘制，非取自素材包，同属上述色板。
+
+_borders.txt 记录每张图的 9-slice 边框（像素），由 Asset/Editor/RaftUiSkinSetup.cs 写入导入设置。

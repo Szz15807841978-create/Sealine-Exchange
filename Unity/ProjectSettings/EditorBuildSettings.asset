@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: 7c1f4a9b2d6e43a8b5c0f7e1d9a26b34
+  - enabled: 1
+    path: Assets/Scenes/DivePointDemo.unity
+    guid: 6beaa2318e43c81409c8a4c94051f2c8
+  - enabled: 1
+    path: Assets/Scenes/DiveLoop.unity
+    guid: 19786881dd4f56648a2c282e4c7e6ee2
+  - enabled: 1
+    path: Assets/Scenes/Current/DivePointRealisticOceanSky_Unified.unity
+    guid: a6e4c9d5b2f748c1803e6ad9275f104b
+  - enabled: 1
+    path: Assets/Scenes/UnderwaterExplore3D.unity
+    guid: 7340b5f86d1ea8d4aa779fb86b65274f
+  - enabled: 1
+    path: Assets/Scenes/Underwater_LowPolyReef_3D.unity
+    guid: 9626b721c42505940bf58859599e5cc0
+  - enabled: 1
+    path: Assets/Scenes/Underwater_LifeDeluxe_3D.unity
+    guid: c2289ad4e13a67f4f86a3473a7dc37d8
+  - enabled: 1
+    path: Assets/Scenes/Underwater_Corals2_3D.unity
+    guid: 39e6b98be5d95744bbe6b35a81b553cc
+  - enabled: 1
+    path: Assets/Scenes/Underwater_SunkenShip_3D.unity
+    guid: dd7acc234a36c6f4085263c0501379bd
+  m_configObjects: {}

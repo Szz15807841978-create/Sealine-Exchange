@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GameRealisticSky
+  m_Shader: {fileID: 4800000, guid: 6111aa5b90d424e6ab8cced5721af950, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _SUNDISK_HIGH_QUALITY
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _NoiseTex1:
+        m_Texture: {fileID: 11760204, guid: 8e30fd58b269d403f8200b53e595bdbe, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex2:
+        m_Texture: {fileID: 11728776, guid: f93fa8e00a05b48b0a3ae3348c573981, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Altitude0: 1200
+    - _Altitude1: 3100
+    - _AtmosphereThickness: 1.0182407
+    - _Exposure: 1.0523226
+    - _Extinct: 0.009370801
+    - _FarDist: 30000
+    - _HGCoeff: 0.45655465
+    - _NoiseAmp1: 5
+    - _NoiseAmp2: 1
+    - _NoiseBias: -0.28059864
+    - _NoiseFreq1: 3.1
+    - _NoiseFreq2: 35.1
+    - _SampleCount0: 20
+    - _SampleCount1: 48
+    - _SampleCountL: 8
+    - _Scatter: 0.0059745265
+    - _SunDisk: 2
+    - _SunSize: 0.035
+    - _SunSizeConvergence: 4
+    m_Colors:
+    - _GroundColor: {r: 0.288876, g: 0.3665388, b: 0.40768477, a: 0.6}
+    - _Scroll1: {r: 0.006, g: 0.018, b: 0.01, a: 0}
+    - _Scroll2: {r: 0.01, g: 0.026, b: 0.018, a: 0}
+    - _SkyTint: {r: 0.40059865, g: 0.61947465, b: 0.7720586, a: 1}
+  m_BuildTextureStacks: []
